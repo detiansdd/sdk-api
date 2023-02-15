@@ -147,7 +147,7 @@ The type of pages in the region. The following types are defined.
 </td>
 <td width="60%">
 Indicates that the memory pages within the region are mapped into the view of an image section.
-
+That is, the address is mapped to a fragment of an executable image file, such as a DLL file.
 </td>
 </tr>
 <tr>
@@ -158,7 +158,7 @@ Indicates that the memory pages within the region are mapped into the view of an
 </td>
 <td width="60%">
 Indicates that the memory pages within the region are mapped into the view of a section.
-
+i.e. addresses mapped to non-executable image file fragments, such as page files.
 </td>
 </tr>
 <tr>
